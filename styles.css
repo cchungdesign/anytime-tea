@@ -1,0 +1,59 @@
+/*
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+*/
+
+/* Body */
+
+body {
+    color: #363636;
+    font-family: 'Hind', sans-serif;
+    background-color: #ffffff;
+}
+
+/* Navigation Bar */
+
+header {
+    background-color: #cccccc;
+}
+
+main {
+    margin: auto;
+    width: 700px;
+}
+
+.footer-content {
+    text-align: center;
+    color: #8a8a8a;
+    padding: 1rem;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.nav-wrapper a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem;
+    background-color: gray;
+}
+
+.brand-logo {
+    float: left;
+}
+
+.tagline {
+    font-family: 'Alegreya', serif;
+    font-style: oblique;
+    text-align: center;
+}
